@@ -1,0 +1,33 @@
+.container{
+    box-shadow: 0 0 10px 1px rgba(0, 255, 0, 1);
+    border-radius: .5rem;
+    padding: 1rem;
+
+    width:fit-content;
+}
+
+.searchBar{
+    border-radius: .5rem;
+    width: 15rem;
+    height: .5rem;
+    margin-right: .5rem;
+
+    font-size: large;
+    font-weight: bold;
+
+    padding: 1rem 0 1rem 1rem;
+    text-decoration: none;
+}
+
+.boton{
+    background-color: green;
+    border-radius: .5rem;
+
+    width: fit-content;
+    height: fit-content;
+    padding: .5rem;
+
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.container{
+    background-color: rgba(10, 10, 10, .5);
+
+    margin-top: 1rem;
+    padding: 5rem;
+    padding-top: 10rem;
+
+    position: relative;
+
+    min-height: 550px;
+    
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.titulo{
+    background-color: rgb(50, 50, 50);
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.info{
+    text-align: justify;
+}

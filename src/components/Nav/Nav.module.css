@@ -1,0 +1,42 @@
+.nav{
+    background-color: rgba(10, 10, 10, .5);
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+    margin-bottom: 1rem;
+
+    display: flex;
+    align-items: center;
+
+    height: fit-content;
+    min-width: 600px;
+    min-height: 100px;
+
+    justify-content: flex-start;
+}
+
+.menu{
+    margin-left: auto;
+}
+
+.menu button{
+    background-color: green;
+    border-radius: .5rem;
+
+    width: fit-content;
+    height: 2.5rem;
+
+    margin-left: 1.5rem;
+    padding: 10px;
+
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.menu button:hover{
+    transform: rotate(0.01turn) scale(1.2);
+}
